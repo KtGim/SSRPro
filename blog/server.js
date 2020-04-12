@@ -12,4 +12,5 @@ const server = new WebpackDevServer(compiler, {
 });
 server.listen(9090, 'localhost', function (err) {
     if (err) throw err
+    console.log('启动服务: 9090');
 })

@@ -1,5 +1,6 @@
 const fs = require('fs')
 // node file arg1 arg2
+// node ./1.txt ./1.txt ./2.txt
 const arguments = process.argv.splice(2);
 
 console.log(arguments);

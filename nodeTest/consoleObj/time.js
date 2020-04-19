@@ -1,3 +1,11 @@
+/*
+ * @Author: 钱晶晶
+ * @Date: 2020-04-17 23:58:50
+ * @LastEditTime: 2020-04-19 19:03:30
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \nodeTest\consoleObj\time.js
+ */
 console.time('oo')
 
 for(var i = 0; i < 100; i++) {
@@ -5,5 +13,3 @@ for(var i = 0; i < 100; i++) {
 }
 
 console.timeEnd('oo')
-
-// time, timeEnd  统计一段代码执行的时间差， 传入的参数要一致

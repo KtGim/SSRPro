@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-04-25 15:25:03
- * @LastEditTime: 2020-04-25 15:27:09
+ * @LastEditTime: 2020-04-25 17:54:00
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \nodeTest\Mocha\index.js
@@ -14,6 +14,8 @@ function add() {
     }
 }
 
-module.exports = {
-    add,
-}
+// module.exports = {
+//     add,
+// }
+
+exports.add = add;

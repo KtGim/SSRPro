@@ -1,0 +1,44 @@
+{
+  "name": "vue3",
+  "version": "1.0.0",
+  "description": "vue3 + webpack5 + vue-roouter4 + vuex4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client:server": "webpack serve --config ./build/webpack.client.dev.js",
+    "client:dev": "webpack --config ./build/webpack.client.dev.js",
+    "server:dev": "webpack --config ./build/webpack.server.dev.js",
+    "dev:build": "npm run server:dev",
+    "dev:server": "nodemon ./src/server/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@koa/router": "^10.0.0",
+    "@vue/compiler-sfc": "^3.0.11",
+    "@vue/server-renderer": "^3.0.11",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "ignore-loader": "^0.1.2",
+    "koa": "^2.13.1",
+    "koa-static": "^5.0.0",
+    "mini-css-extract-plugin": "^1.4.1",
+    "nodemon": "^2.0.7",
+    "vue-loader": "^16.2.0",
+    "webpack": "^5.31.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "vue": "^3.0.11",
+    "vue-router": "^4.0.6",
+    "vuex": "^4.0.0"
+  }
+}
